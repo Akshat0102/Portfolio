@@ -1,0 +1,38 @@
+.about{
+    width: 80%;
+    display: flex;
+    height: 80%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile-pic{
+    display: flex;
+    height: 90%;
+    width: 15%;
+}
+.profile-pic img{
+    height: 70%;
+    width: 100%;
+}
+
+.profile-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
+    width: 75%;
+}
+
+p{
+    font-size: 1.4rem;
+    text-align: justify;
+}
+
+.pink{
+    color: #FFA8C9;
+}
+
+.orange{
+    color: #FFAA6C;
+}

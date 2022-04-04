@@ -1,0 +1,51 @@
+.home{
+  fill: solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* .main-body{
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55%;
+    width: 100%;
+}
+  
+.rect{
+    height: 25vh;
+    width: 40vw;
+    border: 11px solid #121247;
+    opacity: 0.56;
+}
+  
+.name{
+    z-index: 10;
+    font-family: JetBrains;
+    font-size: 60px;
+    position: absolute;
+    color: #FFA8C9;
+}
+  
+.bio{
+    font-family: JetBrains;
+    font-size: 25px;
+    color: #FFAA6C;
+    text-align: center;
+}
+
+/* .social-wrap{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+} */

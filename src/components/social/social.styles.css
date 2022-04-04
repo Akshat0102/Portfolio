@@ -1,0 +1,25 @@
+.social-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.social{
+    display: flex;
+    width: 15%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-links{
+    height: 6vh;
+    width: 6vh;
+    transition: transform .2s;
+}
+
+.social-links:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
