@@ -1,25 +1,45 @@
-.social-wrapper{
+.social-wrapper {
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: flex-end;
 }
 
-.social{
+.social {
     display: flex;
     width: 15%;
     justify-content: space-between;
     align-items: center;
 }
 
-.social-links{
+.social-links {
     height: 6vh;
     width: 6vh;
-    transition: transform .2s;
+    animation: float 5s ease-in-out infinite;
 }
 
-.social-links:hover{
-    -ms-transform: scale(1.5);
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
+.linked {
+    animation-delay: 1s;
+}
+
+.insta {
+    animation-delay: 2s;
+}
+
+.mail {
+    animation-delay: 3s;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }

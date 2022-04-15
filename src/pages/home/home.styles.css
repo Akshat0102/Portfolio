@@ -7,13 +7,6 @@
   height: 100vh;
 }
 
-/* .main-body{
-    height: 85vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} */
 .header{
     display: flex;
     justify-content: center;

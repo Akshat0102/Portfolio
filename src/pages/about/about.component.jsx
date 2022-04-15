@@ -13,7 +13,7 @@ const About = () => {
 
             <div className="profile-data">
                 <p>Hello, I am <span className="pink"> Akshat Khandelwal</span>.
-                    I am a UI Designer and Flutter Developer.</p>
+                    I am a UI Designer and Flutter, React.Js Developer.</p>
 
                 <br></br>
 

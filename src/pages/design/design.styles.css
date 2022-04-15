@@ -1,0 +1,30 @@
+.design-wrap {
+    height: 100%;
+    overflow-x: scroll;
+    width: 75vw;
+    display: initial;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.scroll {
+    height: 100%;
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/*hiding scrollbar*/
+.design-wrap::-webkit-scrollbar {
+    /*Chrome, Safari and Opera */
+    display: none;
+}
+
+.design-wrap {
+    /* IE and Edge */
+    -ms-overflow-style: none;
+    /* Firefox */
+    scrollbar-width: none;
+}
