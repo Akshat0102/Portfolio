@@ -1,7 +1,7 @@
 .skill-card {
     /* background-color: #05053b47; */
     /* background-color: #1a1ad147; */
-    height: 25vh;
+    height: 22vh;
     width: 7vw;
     border-radius: 10px;
     display: flex;
@@ -17,7 +17,7 @@
     border-radius: 100px;
 }
 
-.tag {
+.skill-title {
     color: white;
     font-size: 20px;
 }

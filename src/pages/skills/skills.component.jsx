@@ -9,7 +9,7 @@ const Skills = () => {
         <div className="skill-wrap">
             {
                 skillArr.map(item => (
-                    <SkillCard key={item.id} title={item.title} />
+                    <SkillCard key={item.id} title={item.title.toUpperCase()} />
                 ))
             }
         </div>

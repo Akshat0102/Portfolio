@@ -7,12 +7,12 @@ const Card = ({ designItem }) => {
         <div className="card-container">
 
             {/*adding video*/}
-            <iframe src={designItem.video}
+            <video src={designItem.video}
                 title={designItem.name}
                 className="v-frame"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen />
+                autoPlay muted playsInline loop>
+                <source src={designItem.video} type="video/mp4" />
+            </video>
 
             {/* adding title and description and link*/}
             <div className="content">

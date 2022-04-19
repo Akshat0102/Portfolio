@@ -5,7 +5,7 @@ const SkillCard = ({ datapercent, title }) => {
     return (
         <div className="skill-card">
             <div className="circle"></div>
-            <p className="tag">{title}</p>
+            <p className="skill-title">{title}</p>
         </div>
     )
 }
