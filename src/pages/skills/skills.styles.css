@@ -1,0 +1,9 @@
+.skill-wrap {
+    height: 100%;
+    width: 76vw;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    padding-top: 50px;
+}

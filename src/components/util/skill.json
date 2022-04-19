@@ -1,0 +1,44 @@
+{
+    "skills": [
+        {
+            "id": 1,
+            "title": "C++",
+            "datapercent": "50%"
+        },
+        {
+            "id": 2,
+            "title": "UI-UX",
+            "datapercent": "50%"
+        },
+        {
+            "id": 3,
+            "title": "Java",
+            "datapercent": "50%"
+        },
+        {
+            "id": 4,
+            "title": "ReactJS",
+            "datapercent": "50%"
+        },
+        {
+            "id": 5,
+            "title": "Flutter",
+            "datapercent": "50%"
+        },
+        {
+            "id": 6,
+            "title": "Python",
+            "datapercent": "50%"
+        },
+        {
+            "id": 7,
+            "title": "MySQL",
+            "datapercent": "50%"
+        },
+        {
+            "id": 8,
+            "title": "German",
+            "datapercent": "50%"
+        }
+    ]
+}

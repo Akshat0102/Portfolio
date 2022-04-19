@@ -1,5 +1,5 @@
 .about{
-    width: 76%;
+    width: 81%;
     display: flex;
     height: 90%;
     justify-content: space-around;
@@ -12,14 +12,14 @@
     width: 15%;
 }
 .profile-pic img{
-    height: 58%;
+    height: 60%;
     width: 100%;
 }
 
 .profile-data{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 90%;
     width: 70%;
 }
