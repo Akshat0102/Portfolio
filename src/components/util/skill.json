@@ -3,42 +3,42 @@
         {
             "id": 1,
             "title": "C++",
-            "datapercent": "50%"
+            "datapercent": 70
         },
         {
             "id": 2,
             "title": "UI-UX",
-            "datapercent": "50%"
+            "datapercent": 90
         },
         {
             "id": 3,
             "title": "Java",
-            "datapercent": "50%"
+            "datapercent": 70
         },
         {
             "id": 4,
             "title": "React.JS",
-            "datapercent": "50%"
+            "datapercent": 60
         },
         {
             "id": 5,
             "title": "Flutter",
-            "datapercent": "50%"
+            "datapercent": 40
         },
         {
             "id": 6,
             "title": "Python",
-            "datapercent": "50%"
+            "datapercent": 55
         },
         {
             "id": 7,
             "title": "MySQL",
-            "datapercent": "50%"
+            "datapercent": 80
         },
         {
             "id": 8,
             "title": "German",
-            "datapercent": "50%"
+            "datapercent": 33
         }
     ]
 }

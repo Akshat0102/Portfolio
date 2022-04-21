@@ -6,7 +6,6 @@ import Nav from './components/nav/nav.components';
 import About from './pages/about/about.component';
 import Design from './pages/design/design.component';
 import Skills from './pages/skills/skills.component';
-import SkillCard from './components/skill-card/skill-card.component';
 import Resume from './pages/resume/resume.component';
 
 function App() {
@@ -23,8 +22,6 @@ function App() {
           <Route path='/designs' element={<Design />} />
           <Route path='/skills' element={<Skills />} />
           <Route path='/resume' element={<Resume />} />
-          <Route path='/skill-card' element={<SkillCard />} />
-
         </Routes>
       </div>
       <div className="social-wrapper">
