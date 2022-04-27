@@ -1,10 +1,9 @@
-// import React, { useState } from "react";
+import React from "react";
 import './nav.styles.css'
 import { Link } from "react-router-dom";
 
 const Nav = () => {
     return (
-
         <div className="navbar">
             <nav className="nav-wrap">
                 <Link to={'/'} className='link' ><p>HOME</p></Link>
@@ -13,7 +12,6 @@ const Nav = () => {
                 <Link to={'/designs'} className='link' ><p>DESIGNS</p></Link>
                 <Link to={'/projects'} className='link'><p>PROJECTS</p></Link>
                 <Link to={'/resume'} className='link'><p>RESUME</p></Link>
-
             </nav>
         </div>
     )
